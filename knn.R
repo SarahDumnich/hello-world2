@@ -23,7 +23,7 @@ y_pred = knn(train = training_set[, -3],
              cl = training_set[, 3],
              k = 5,
              prob = TRUE)
-
+ df = df
 
 # Making the Confusion Matrix
 install.packages('caret')
